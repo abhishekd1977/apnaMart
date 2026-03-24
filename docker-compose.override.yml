@@ -1,0 +1,21 @@
+version: "3.9"
+
+# Local development overrides — hot reload without rebuilding images
+services:
+  backend:
+    build:
+      target: development
+    volumes:
+      - ./backend/src:/app/src
+    environment:
+      SPRING_DEVTOOLS_RESTART_ENABLED: "true"
+
+  frontend:
+    build:
+      target: development
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/public:/app/public
+    command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+    ports:
+      - "5173:5173"
