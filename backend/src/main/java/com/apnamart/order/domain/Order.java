@@ -1,7 +1,6 @@
 package com.apnamart.order.domain;
 
 import com.apnamart.user.domain.User;
-import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.JdbcTypeCode;

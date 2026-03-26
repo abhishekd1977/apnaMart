@@ -11,6 +11,7 @@ import CheckoutPage from '@/pages/CheckoutPage'
 import OrdersPage from '@/pages/OrdersPage'
 import OrderDetailPage from '@/pages/OrderDetailPage'
 import ProfilePage from '@/pages/ProfilePage'
+import CartDrawer from '@/components/cart/CartDrawer'
 
 function PrivateRoute({ children }: { children: React.ReactNode }) {
   const isAuthenticated = useAuthStore((s) => !!s.token)
@@ -22,6 +23,7 @@ export default function App() {
     <BrowserRouter>
       <div className="min-h-screen flex flex-col">
         <Navbar />
+        <CartDrawer />
         <main className="flex-1 container mx-auto px-4 py-6 max-w-7xl">
           <Routes>
             <Route path="/" element={<HomePage />} />

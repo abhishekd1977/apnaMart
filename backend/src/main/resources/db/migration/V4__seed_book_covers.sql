@@ -1,0 +1,25 @@
+-- Add cover image URLs for all seeded books using Open Library Covers API
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg' WHERE isbn = '9780132350884';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg' WHERE isbn = '9780135957059';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg' WHERE isbn = '9780735211292';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg' WHERE isbn = '9780062315007';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg' WHERE isbn = '9780201633610';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9781491904151-L.jpg' WHERE isbn = '9781491904151';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9798664653403-L.jpg' WHERE isbn = '9798664653403';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780061935466-L.jpg' WHERE isbn = '9780061935466';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg' WHERE isbn = '9780451524935';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780345391803-L.jpg' WHERE isbn = '9780345391803';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780743269513-L.jpg' WHERE isbn = '9780743269513';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg' WHERE isbn = '9781455586691';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg' WHERE isbn = '9780062316097';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780399590504-L.jpg' WHERE isbn = '9780399590504';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9781400052189-L.jpg' WHERE isbn = '9781400052189';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780060958589-L.jpg' WHERE isbn = '9780060958589';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780393317558-L.jpg' WHERE isbn = '9780393317558';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780804139021-L.jpg' WHERE isbn = '9780804139021';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg' WHERE isbn = '9780307887894';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg' WHERE isbn = '9780374533557';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780439708180-L.jpg' WHERE isbn = '9780439708180';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg' WHERE isbn = '9780156012195';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9781401245252-L.jpg' WHERE isbn = '9781401245252';
+UPDATE books SET cover_image_url = 'https://covers.openlibrary.org/b/isbn/9781569319000-L.jpg' WHERE isbn = '9781569319000';

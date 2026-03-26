@@ -19,8 +19,8 @@ public interface BookRepository extends JpaRepository<Book, UUID> {
         SELECT b FROM Book b
         WHERE b.isActive = true
           AND (:categoryId IS NULL OR b.category.id = :categoryId)
-          AND (:search IS NULL OR LOWER(b.title) LIKE LOWER(CONCAT('%', :search, '%'))
-               OR LOWER(b.author) LIKE LOWER(CONCAT('%', :search, '%')))
+          AND (:search IS NULL OR LOWER(b.title) LIKE LOWER(CONCAT('%', CAST(:search AS string), '%'))
+               OR LOWER(b.author) LIKE LOWER(CONCAT('%', CAST(:search AS string), '%')))
           AND (:minPrice IS NULL OR b.price >= :minPrice)
           AND (:maxPrice IS NULL OR b.price <= :maxPrice)
           AND (:inStock IS NULL OR (:inStock = true AND b.stockQuantity > 0)
